@@ -16,7 +16,7 @@ run with `node app.js`
 0. Reads CSVs and obtains companies that are being looked for
 1. Parses RSS Feed and uses NLP for simple searches through description and title
 2. Requests and performs HTML scrapping on AllAfrica.com articles
-3. Uses NLP to detect entities like organizations, people, and places inside the article
+3. Uses NLP to detect entities like organizations, people, and places inside the article. Then using this data, the algorithm attempts to draw connections between the company list and the mentioned entities.
 4. Finds articles that contain the companies and rewrites them into a new CSV in their pertaining rows. (output.csv)
 
 
